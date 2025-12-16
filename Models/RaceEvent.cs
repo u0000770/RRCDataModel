@@ -9,7 +9,7 @@ public partial class RaceEvent
 
     public int EventId { get; set; }
 
-    public DateOnly Date { get; set; }
+    public DateTime Date { get; set; }
 
     public bool Active { get; set; }
 
